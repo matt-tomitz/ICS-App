@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Matt\source\repos\WpfApp1\WpfApp1\obj\Debug\
+C:\Users\Matt\source\repos\WpfApp1\Application\obj\Debug\
 WpfApp1
 none
 false
 DEBUG;TRACE
-C:\Users\Matt\source\repos\WpfApp1\WpfApp1\App.xaml
-4-916940207
-2-1779647843
-17433846091
+C:\Users\Matt\source\repos\WpfApp1\Application\App.xaml
+3-669777520
+21750853300
+14-69389714
 18-1630250331
-CreateContact.xaml;MainWindow.xaml;CreateAcc.xaml;LoginWindow.xaml;
+MainWindow.xaml;CreateAcc.xaml;LoginWindow.xaml;
 
-True
+False
 
