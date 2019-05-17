@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp1.CreateAcc"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      Title="CreateAcc" Height="450" Width="800">
+    <Border Padding="5">
+        <StackPanel>
+            <TextBlock Text="Create Account" Margin="250 10" FontSize="40"/>
+            <TextBlock  Text="Username:" Margin="0 5"/>
+            <TextBox x:Name="usernamebox" Padding="1"/>
+            <TextBlock Text="Enter password:" Margin="0 10"/>
+            <PasswordBox x:Name="pass1" Padding="1" PasswordChar="*" />
+            <TextBlock Text="Repeat password:" Margin="0 10"/>
+            <PasswordBox x:Name="pass2" Padding="1" PasswordChar="*"/>
+            <Button Content="Submit" Click="SubButton_Click" Margin="1 20"/>
+            <Button Content="Back" Click="BackButton_Click"/>
+            <TextBox x:Name="TextBox" Foreground="Red" Margin ="0 10" Padding="1" IsEnabled="False"/>
+        </StackPanel>
+    </Border>
+</Window>
