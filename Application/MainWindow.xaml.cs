@@ -57,8 +57,6 @@ namespace WpfApp1
                 var first = name[0];
                 var last = name[1];
 
-                Console.WriteLine(first + last);
-
                 var query = from c in context.Contacts
                             where c.FirstName == first
                             where c.LastName == last
@@ -107,5 +105,15 @@ namespace WpfApp1
             loginWindow.Show();
 
         }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            EditContact edit = new EditContact(this);
+            this.Hide();
+            edit.Show();
+
+
+
+    }
     }
 }

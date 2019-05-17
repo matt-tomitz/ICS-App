@@ -75,10 +75,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="EditContact.xaml.cs">
+      <DependentUpon>EditContact.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserTable.cs">
       <DependentUpon>DBModel.tt</DependentUpon>
     </Compile>
     <Page Include="CreateContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditContact.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -52,3 +52,5 @@ C:\Users\Matt\source\repos\WpfApp1\Application\obj\Debug\Application.csproj.Core
 C:\Users\Matt\source\repos\WpfApp1\Application\obj\Debug\Application.csproj.CopyComplete
 C:\Users\Matt\source\repos\WpfApp1\Application\obj\Debug\WpfApp1.exe
 C:\Users\Matt\source\repos\WpfApp1\Application\obj\Debug\WpfApp1.pdb
+C:\Users\Matt\source\repos\WpfApp1\Application\obj\Debug\EditContact.g.cs
+C:\Users\Matt\source\repos\WpfApp1\Application\obj\Debug\EditContact.baml

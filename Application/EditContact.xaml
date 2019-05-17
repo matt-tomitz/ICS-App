@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApp1.EditContact"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="EditContact" Height="450" Width="800">
+    <Border Padding="10">
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Edit Contact:" FontSize="40"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBox x:Name="Id" IsEnabled="False"/>
+                    <TextBox x:Name="dateCreated" IsEnabled="False"/>
+                </StackPanel>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="First name:" Margin="0 25 0 15"/>
+                    <TextBox x:Name="FirstName" Margin="0 0 40 0"/>
+                    <TextBlock Text="Last name:" Margin="0 25 0 15"/>
+                    <TextBox x:Name="LastName" Margin="0 0 30 0"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Address" Margin="0 25 0 15"/>
+                    <TextBox x:Name="Address" Margin="0 0 40 0"/>
+                    <TextBlock Text="Phone Number" Margin="0 25 0 15"/>
+                    <TextBox x:Name="Phone" Margin="0 0 30 0"/>
+                    <TextBlock x:Name="IdText" Foreground="White"/>
+                </StackPanel>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <Button x:Name="ConfirmButton" Click="ConfirmButton_Click"  Content="Confirm" Margin="20 50 60 0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <Button x:Name="BackButton" Click="BackButton_Click"  Content="Back" Margin="20 50 60 0"/>
+                </StackPanel>
+            </Grid>
+
+        </StackPanel>
+
+    </Border>
+</Window>

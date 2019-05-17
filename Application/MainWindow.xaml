@@ -27,10 +27,11 @@
                     </ListBox>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Button x:Name="ViewButton" Content="View Contact" Click="ViewButton_Click"  Margin="150 40 150 0" Padding="8"/>
-                    <Button x:Name="AddButton"  Click="AddButton_Click" Content="Add New" Margin="150 40 150 0" Padding="8"/>
-                    <Button x:Name="DeleteButton" Click="DeleteButton_Click" Content="Delete" Margin="150 40 150 0" Padding="8"/>
-                    <Button x:Name="LogoutButton" Click="LogoutButton_Click"  Content="Logout" Margin="150 40 150 0" Padding="8"/>
+                    <Button x:Name="ViewButton" Content="View Contact" Click="ViewButton_Click"  Margin="150 30 150 0" Padding="8"/>
+                    <Button x:Name="AddButton"  Click="AddButton_Click" Content="Add New" Margin="150 30 150 0" Padding="8"/>
+                    <Button x:Name="EditButton" Click="EditButton_Click"  Content="Edit" Margin="150 30 150 0" Padding="8"/>
+                    <Button x:Name="DeleteButton" Click="DeleteButton_Click" Content="Delete" Margin="150 30 150 0" Padding="8"/>
+                    <Button x:Name="LogoutButton" Click="LogoutButton_Click"  Content="Logout" Margin="150 30 150 0" Padding="8"/>
                 </StackPanel>
             </Grid>
         </StackPanel>
